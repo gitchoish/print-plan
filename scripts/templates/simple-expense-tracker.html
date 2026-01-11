@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .expense-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 5mm;
+        }
+
+        .expense-table th {
+            border-bottom: 2px solid var(--gray-900);
+            text-align: left;
+            padding: 3mm;
+            background: var(--gray-100);
+        }
+
+        .expense-table td {
+            border-bottom: 1px dashed var(--gray-300);
+            padding: 3mm;
+        }
+
+        .summary-box {
+            margin-top: 10mm;
+            border: 2px solid var(--gray-500);
+            padding: 5mm;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .disclaimer {
+            margin-top: 10mm;
+            text-align: center;
+            font-size: 8pt;
+            color: var(--gray-500);
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <h1>Monthly Expenses</h1>
+
+        <div style="display:flex; justify-content:space-between; margin-bottom:5mm;">
+            <div style="font-size:12pt;">
+                MONTH: _________________
+            </div>
+            <div style="font-size:12pt;">
+                YEAR: _________________
+            </div>
+        </div>
+
+        <table class="expense-table">
+            <thead>
+                <tr>
+                    <th style="width: 25mm;">DATE</th>
+                    <th style="width: 60mm;">CATEGORY</th>
+                    <th>DESCRIPTION</th>
+                    <th style="width: 30mm; text-align:right;">AMOUNT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 20 rows -->
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="summary-box">
+            <div style="text-align:center;">
+                <div style="font-size:9pt; color:#666; text-transform:uppercase;">Total Income</div>
+                <div style="font-size:16pt; font-weight:bold; margin-top:2mm;">$___________</div>
+            </div>
+            <div style="border-right:1px solid #ccc;"></div>
+            <div style="text-align:center;">
+                <div style="font-size:9pt; color:#666; text-transform:uppercase;">Total Fixed Expenses</div>
+                <div style="font-size:16pt; font-weight:bold; margin-top:2mm;">$___________</div>
+            </div>
+            <div style="border-right:1px solid #ccc;"></div>
+            <div style="text-align:center;">
+                <div style="font-size:9pt; color:#666; text-transform:uppercase;">Total Variable Expenses</div>
+                <div style="font-size:16pt; font-weight:bold; margin-top:2mm;">$___________</div>
+            </div>
+            <div style="border-right:1px solid #ccc;"></div>
+            <div style="text-align:center;">
+                <div style="font-size:9pt; color:#666; text-transform:uppercase;">Net Savings</div>
+                <div style="font-size:16pt; font-weight:bold; margin-top:2mm;">$___________</div>
+            </div>
+        </div>
+
+        <div class="disclaimer">
+            * Tracking only – no financial advice provided.
+        </div>
+    </div>
+</body>
+
+</html>

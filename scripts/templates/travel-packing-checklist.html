@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Packing Checklist</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .packing-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 5mm;
+            margin-top: 5mm;
+        }
+
+        .category-box {
+            margin-bottom: 5mm;
+        }
+
+        .category-title {
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 2px solid var(--gray-300);
+            padding-bottom: 1mm;
+            margin-bottom: 2mm;
+            font-size: 10pt;
+        }
+
+        .final-check {
+            margin-top: 10mm;
+            border: 1px solid var(--gray-900);
+            padding: 5mm;
+            background: var(--gray-100);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <h1>Travel Packing List</h1>
+        <div
+            style="display:flex; justify-content:space-between; margin-bottom:5mm; border-bottom:1px solid #ccc; padding-bottom:2mm;">
+            <span>DESTINATION: ________________</span>
+            <span>DATES: ________________</span>
+        </div>
+
+        <div class="packing-grid">
+            <!-- Col 1 -->
+            <div>
+                <div class="category-box">
+                    <div class="category-title">CLOTHES</div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Tops / Shirts</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Pants / Shorts</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Underwear</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Socks</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Pajamas</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Jackets</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Shoes</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div>
+                        <div class="line-input"></div>
+                    </div>
+                </div>
+
+                <div class="category-box">
+                    <div class="category-title">TOILETRIES</div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Toothbrush</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Toothpaste</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Deodorant</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Shampoo</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Skincare</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Sunscreen</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div>
+                        <div class="line-input"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Col 2 -->
+            <div>
+                <div class="category-box">
+                    <div class="category-title">ELECTRONICS</div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Phone & Charger</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Laptop & Charger</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Headphones</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Power Bank</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Adapter</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div>
+                        <div class="line-input"></div>
+                    </div>
+                </div>
+
+                <div class="category-box">
+                    <div class="category-title">DOCUMENTS</div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Passport / ID</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Tickets</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Insurance</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Cash / Cards</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div>
+                        <div class="line-input"></div>
+                    </div>
+                </div>
+
+                <div class="category-box">
+                    <div class="category-title">HEALTH</div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Prescriptions</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Vitamins</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>First Aid</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div>
+                        <div class="line-input"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Col 3 -->
+            <div>
+                <div class="category-box">
+                    <div class="category-title">CARRY-ON</div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Empty Water Bottle</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Snacks</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Neck Pillow</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Eye Mask</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Sanitizer</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div>
+                        <div class="line-input"></div>
+                    </div>
+                </div>
+
+                <div class="category-box">
+                    <div class="category-title">MISC</div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Sunglasses</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Umbrella</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Keys</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div>
+                        <div class="line-input"></div>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div>
+                        <div class="line-input"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="final-check">
+            <h3>FINAL HOUSE CHECK</h3>
+            <div style="display: flex; gap: 5mm;">
+                <div style="flex:1">
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Windows Closed</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Plants Watered</span>
+                    </div>
+                </div>
+                <div style="flex:1">
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Thermostat Set</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Trash Out</span>
+                    </div>
+                </div>
+                <div style="flex:1">
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Appliances Off</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Doors Locked</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

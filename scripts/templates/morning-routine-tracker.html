@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Morning Routine Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .split-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15mm;
+            height: 100%;
+        }
+
+        .time-block {
+            margin-bottom: 5mm;
+        }
+
+        .time-slot {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid var(--gray-300);
+            padding: 3mm 0;
+        }
+
+        .time-label {
+            width: 25mm;
+            font-weight: 500;
+            color: var(--gray-500);
+            border-right: 1px solid var(--gray-300);
+            margin-right: 3mm;
+        }
+
+        .tracker-grid {
+            margin-top: 10mm;
+            border: 1px solid var(--gray-900);
+            border-radius: 4px;
+            padding: 5mm;
+        }
+
+        .habit-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 2mm 0;
+            border-bottom: 1px dotted var(--gray-300);
+        }
+
+        .circle-check {
+            width: 5mm;
+            height: 5mm;
+            border-radius: 50%;
+            border: 1px solid var(--gray-500);
+        }
+
+        .quote-box {
+            margin-top: 10mm;
+            padding: 5mm;
+            border-left: 4px solid var(--gray-900);
+            font-style: italic;
+            color: var(--gray-500);
+            background: var(--gray-100);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <h1>MORNING ROUTINE</h1>
+
+        <div class="split-layout">
+            <!-- Column 1: Timeline -->
+            <div>
+                <h2>TIMELINE</h2>
+                <div class="time-block">
+                    <!-- 5AM - 9AM slots -->
+                    <div class="time-slot">
+                        <div class="time-label">05:00</div>
+                        <div class="line-input"></div>
+                    </div>
+                    <div class="time-slot">
+                        <div class="time-label">05:30</div>
+                        <div class="line-input"></div>
+                    </div>
+                    <div class="time-slot">
+                        <div class="time-label">06:00</div>
+                        <div class="line-input"></div>
+                    </div>
+                    <div class="time-slot">
+                        <div class="time-label">06:30</div>
+                        <div class="line-input"></div>
+                    </div>
+                    <div class="time-slot">
+                        <div class="time-label">07:00</div>
+                        <div class="line-input"></div>
+                    </div>
+                    <div class="time-slot">
+                        <div class="time-label">07:30</div>
+                        <div class="line-input"></div>
+                    </div>
+                    <div class="time-slot">
+                        <div class="time-label">08:00</div>
+                        <div class="line-input"></div>
+                    </div>
+                    <div class="time-slot">
+                        <div class="time-label">08:30</div>
+                        <div class="line-input"></div>
+                    </div>
+                    <div class="time-slot">
+                        <div class="time-label">09:00</div>
+                        <div class="line-input"></div>
+                    </div>
+                </div>
+
+                <h2 style="margin-top: 10mm;">PRIORITIES</h2>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+            </div>
+
+            <!-- Column 2: Habits -->
+            <div>
+                <h2>HABIT STACK</h2>
+                <div class="tracker-grid">
+                    <div
+                        style="display:flex; justify-content:space-between; margin-bottom:3mm; font-size:9pt; color:var(--gray-500);">
+                        <span>HABIT NAME</span>
+                        <span>M T W T F S S</span>
+                    </div>
+                    <!-- Repeated rows -->
+                    <div class="habit-row">
+                        <span style="flex:1">Hydrate</span>
+                        <div style="display:flex; gap:1mm">
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                        </div>
+                    </div>
+                    <div class="habit-row">
+                        <span style="flex:1">Stretch</span>
+                        <div style="display:flex; gap:1mm">
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                        </div>
+                    </div>
+                    <div class="habit-row">
+                        <span style="flex:1">Read</span>
+                        <div style="display:flex; gap:1mm">
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                        </div>
+                    </div>
+                    <div class="habit-row">
+                        <span style="flex:1">Journal</span>
+                        <div style="display:flex; gap:1mm">
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                        </div>
+                    </div>
+                    <div class="habit-row">
+                        <span style="flex:1; border-bottom:1px dotted #ccc;"></span>
+                        <div style="display:flex; gap:1mm">
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                        </div>
+                    </div>
+                    <div class="habit-row">
+                        <span style="flex:1; border-bottom:1px dotted #ccc;"></span>
+                        <div style="display:flex; gap:1mm">
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                            <div class="circle-check"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quote-box">
+                    "Win the morning, win the day."
+                </div>
+
+                <h2 style="margin-top: 10mm;">NOTES</h2>
+                <div style="border: 1px dotted var(--gray-300); height: 40mm;"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

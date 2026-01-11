@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meal Planner</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .layout-columns {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            /* Meal plan 2/3, Grocery 1/3 */
+            gap: 10mm;
+            height: 100%;
+        }
+
+        .meal-row {
+            display: grid;
+            grid-template-columns: 20mm 1fr 1fr 1fr;
+            border-bottom: 1px solid var(--gray-300);
+            min-height: 25mm;
+        }
+
+        .meal-header {
+            display: grid;
+            grid-template-columns: 20mm 1fr 1fr 1fr;
+            background: var(--gray-100);
+            font-weight: bold;
+            padding: 2mm 0;
+            text-align: center;
+            border-top: 2px solid var(--gray-900);
+            border-bottom: 2px solid var(--gray-900);
+        }
+
+        .day-label {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            background: var(--gray-100);
+            border-right: 1px solid var(--gray-300);
+        }
+
+        .meal-cell {
+            padding: 2mm;
+            border-right: 1px dashed var(--gray-300);
+            font-size: 9pt;
+        }
+
+        .grocery-list {
+            border: 2px solid var(--gray-300);
+            padding: 5mm;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <h1>Weekly Meal Plan</h1>
+
+        <div class="layout-columns">
+            <!-- Meal Table -->
+            <div>
+                <div class="meal-header">
+                    <div></div>
+                    <div>BREAKFAST</div>
+                    <div>LUNCH</div>
+                    <div>DINNER</div>
+                </div>
+
+                <!-- MON -->
+                <div class="meal-row">
+                    <div class="day-label">MON</div>
+                    <div class="meal-cell"></div>
+                    <div class="meal-cell"></div>
+                    <div class="meal-cell"></div>
+                </div>
+                <!-- TUE -->
+                <div class="meal-row">
+                    <div class="day-label">TUE</div>
+                    <div class="meal-cell"></div>
+                    <div class="meal-cell"></div>
+                    <div class="meal-cell"></div>
+                </div>
+                <!-- WED -->
+                <div class="meal-row">
+                    <div class="day-label">WED</div>
+                    <div class="meal-cell"></div>
+                    <div class="meal-cell"></div>
+                    <div class="meal-cell"></div>
+                </div>
+                <!-- THU -->
+                <div class="meal-row">
+                    <div class="day-label">THU</div>
+                    <div class="meal-cell"></div>
+                    <div class="meal-cell"></div>
+                    <div class="meal-cell"></div>
+                </div>
+                <!-- FRI -->
+                <div class="meal-row">
+                    <div class="day-label">FRI</div>
+                    <div class="meal-cell"></div>
+                    <div class="meal-cell"></div>
+                    <div class="meal-cell"></div>
+                </div>
+                <!-- SAT -->
+                <div class="meal-row">
+                    <div class="day-label">SAT</div>
+                    <div class="meal-cell"></div>
+                    <div class="meal-cell"></div>
+                    <div class="meal-cell"></div>
+                </div>
+                <!-- SUN -->
+                <div class="meal-row">
+                    <div class="day-label">SUN</div>
+                    <div class="meal-cell"></div>
+                    <div class="meal-cell"></div>
+                    <div class="meal-cell"></div>
+                </div>
+
+                <div class="section" style="margin-top: 5mm;">
+                    <h2>SNACKS / NOTES</h2>
+                    <div style="border: 1px dotted #ccc; height: 30mm;"></div>
+                </div>
+            </div>
+
+            <!-- Grocery List -->
+            <div class="grocery-list">
+                <div
+                    style="text-align:center; font-weight:bold; font-size:14pt; margin-bottom:5mm; padding-bottom:2mm; border-bottom:2px solid #333;">
+                    GROCERIES</div>
+
+                <h3 style="font-size:10pt; background:#eee; padding:1mm;">PRODUCE</h3>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+
+                <h3 style="font-size:10pt; background:#eee; padding:1mm; margin-top:5mm;">PROTEIN/DAIRY</h3>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+
+                <h3 style="font-size:10pt; background:#eee; padding:1mm; margin-top:5mm;">PANTRY</h3>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+
+                <h3 style="font-size:10pt; background:#eee; padding:1mm; margin-top:5mm;">OTHER</h3>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

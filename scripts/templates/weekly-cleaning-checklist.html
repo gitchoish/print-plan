@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weekly Cleaning Checklist</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .cleaning-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            /* 2 columns for Mon-Sun + Extra */
+            gap: 10mm;
+        }
+
+        .day-box {
+            border: 1px solid var(--gray-300);
+            padding: 5mm;
+            border-radius: 4px;
+        }
+
+        .day-header {
+            font-weight: 600;
+            border-bottom: 2px solid var(--gray-100);
+            padding-bottom: 2mm;
+            margin-bottom: 3mm;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .notes-area {
+            border: 1px dashed var(--gray-300);
+            height: 30mm;
+            margin-top: 5mm;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <h1>Weekly Cleaning Checklist</h1>
+
+        <div class="cleaning-grid">
+            <!-- Mon - Thu -->
+            <div class="day-box">
+                <div class="day-header">MONDAY</div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+            </div>
+            <div class="day-box">
+                <div class="day-header">TUESDAY</div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+            </div>
+            <div class="day-box">
+                <div class="day-header">WEDNESDAY</div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+            </div>
+            <div class="day-box">
+                <div class="day-header">THURSDAY</div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+            </div>
+            <!-- Fri - Sun -->
+            <div class="day-box">
+                <div class="day-header">FRIDAY</div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+            </div>
+            <div class="day-box">
+                <div class="day-header">SATURDAY</div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+            </div>
+            <div class="day-box">
+                <div class="day-header">SUNDAY</div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+            </div>
+
+            <div class="day-box" style="background-color: var(--gray-100);">
+                <div class="day-header">DEEP CLEANING ZONES</div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" style="margin-top: 10mm;">
+            <h2>NOTES</h2>
+            <div class="notes-area"></div>
+        </div>
+    </div>
+</body>
+
+</html>

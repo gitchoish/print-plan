@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Night Routine Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .split-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15mm;
+            height: 100%;
+        }
+
+        .dark-mode-section {
+            background: var(--gray-100);
+            padding: 5mm;
+            border-radius: 4px;
+            margin-bottom: 5mm;
+        }
+
+        .question-box {
+            margin-top: 5mm;
+            border-left: 2px solid var(--gray-700);
+            padding-left: 3mm;
+        }
+
+        .question-box p {
+            font-weight: 600;
+            margin: 0 0 2mm 0;
+            font-size: 10pt;
+        }
+
+        .rating-stars {
+            font-size: 20pt;
+            letter-spacing: 2mm;
+            color: var(--gray-300);
+        }
+
+        .sleep-tracker {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid var(--gray-300);
+            padding: 5mm;
+            border-radius: 4px;
+            margin-top: 5mm;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <h1>Night Routine</h1>
+
+        <div class="split-layout">
+            <!-- Left: Routine & Detox -->
+            <div>
+                <h2>WIND DOWN ROUTINE</h2>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span style="margin-right:2mm;">No Screens 1hr Before Bed</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span style="margin-right:2mm;">Plan Tomorrow</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span style="margin-right:2mm;">Skin Care</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span style="margin-right:2mm;">Reading</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+
+                <div class="dark-mode-section" style="margin-top: 10mm;">
+                    <h2>DIGITAL DETOX</h2>
+                    <div style="display:flex; justify-content:space-between; margin-bottom:2mm;">
+                        <span>Last Phone Usage:</span>
+                        <div style="border-bottom:1px solid #333; width:30mm;"></div>
+                    </div>
+                </div>
+
+                <div class="sleep-tracker">
+                    <div>
+                        <div style="font-size:9pt; text-transform:uppercase; color:#666;">Target Bedtime</div>
+                        <div style="font-size:18pt; font-weight:bold;">22:30</div>
+                    </div>
+                    <div style="height:10mm; border-right:1px solid #ccc;"></div>
+                    <div>
+                        <div style="font-size:9pt; text-transform:uppercase; color:#666;">Target Wake Up</div>
+                        <div style="font-size:18pt; font-weight:bold;">06:00</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Reflection -->
+            <div>
+                <h2>DAILY REFLECTION</h2>
+
+                <div class="question-box">
+                    <p>What went well today?</p>
+                    <div class="line-input"></div>
+                    <div class="line-input"></div>
+                </div>
+
+                <div class="question-box">
+                    <p>What can be improved tomorrow?</p>
+                    <div class="line-input"></div>
+                    <div class="line-input"></div>
+                </div>
+
+                <div class="question-box">
+                    <p>One thing I'm grateful for:</p>
+                    <div class="line-input"></div>
+                </div>
+
+                <div class="section" style="margin-top:15mm;">
+                    <h2>DAY RATING</h2>
+                    <div style="text-align:center;">
+                        <span class="rating-stars">☆ ☆ ☆ ☆ ☆</span>
+                    </div>
+                </div>
+
+                <div class="section" style="margin-top:5mm;">
+                    <h2>BRAIN DUMP</h2>
+                    <div style="border:1px solid #ccc; height:30mm; border-radius:4px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

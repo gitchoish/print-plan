@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weekly Study Planner</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .study-grid {
+            margin-top: 5mm;
+            border-top: 2px solid var(--gray-700);
+            border-left: 1px solid var(--gray-300);
+        }
+
+        .study-row {
+            display: grid;
+            grid-template-columns: 30mm 1fr;
+            border-bottom: 1px solid var(--gray-300);
+        }
+
+        .study-day {
+            background: var(--gray-100);
+            padding: 5mm 2mm;
+            text-align: center;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-right: 1px solid var(--gray-300);
+        }
+
+        .study-subjects {
+            padding: 2mm;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2mm;
+        }
+
+        .subject-box {
+            border: 1px dashed var(--gray-300);
+            height: 15mm;
+            padding: 1mm;
+            font-size: 8pt;
+            color: var(--gray-500);
+        }
+
+        .focus-section {
+            margin-top: 8mm;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10mm;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <h1>Weekly Study Planner</h1>
+
+        <div class="study-grid">
+            <!-- Mon -->
+            <div class="study-row">
+                <div class="study-day">MON</div>
+                <div class="study-subjects">
+                    <div class="subject-box">Subject / Goal</div>
+                    <div class="subject-box">Subject / Goal</div>
+                    <div class="subject-box">Subject / Goal</div>
+                </div>
+            </div>
+            <!-- Tue -->
+            <div class="study-row">
+                <div class="study-day">TUE</div>
+                <div class="study-subjects">
+                    <div class="subject-box"></div>
+                    <div class="subject-box"></div>
+                    <div class="subject-box"></div>
+                </div>
+            </div>
+            <!-- Wed -->
+            <div class="study-row">
+                <div class="study-day">WED</div>
+                <div class="study-subjects">
+                    <div class="subject-box"></div>
+                    <div class="subject-box"></div>
+                    <div class="subject-box"></div>
+                </div>
+            </div>
+            <!-- Thu -->
+            <div class="study-row">
+                <div class="study-day">THU</div>
+                <div class="study-subjects">
+                    <div class="subject-box"></div>
+                    <div class="subject-box"></div>
+                    <div class="subject-box"></div>
+                </div>
+            </div>
+            <!-- Fri -->
+            <div class="study-row">
+                <div class="study-day">FRI</div>
+                <div class="study-subjects">
+                    <div class="subject-box"></div>
+                    <div class="subject-box"></div>
+                    <div class="subject-box"></div>
+                </div>
+            </div>
+            <!-- Sat -->
+            <div class="study-row">
+                <div class="study-day">SAT</div>
+                <div class="study-subjects">
+                    <div class="subject-box"></div>
+                    <div class="subject-box"></div>
+                    <div class="subject-box"></div>
+                </div>
+            </div>
+            <!-- Sun -->
+            <div class="study-row">
+                <div class="study-day">SUN</div>
+                <div class="study-subjects">
+                    <div class="subject-box"></div>
+                    <div class="subject-box"></div>
+                    <div class="subject-box"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="focus-section">
+            <div>
+                <h2>FOCUS HOURS</h2>
+                <div style="border:1px solid #ccc; padding:5mm; height:30mm;">
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Session 1: ____________</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Session 2: ____________</span>
+                    </div>
+                    <div class="checkbox-line">
+                        <div class="checkbox"></div><span>Session 3: ____________</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2>EXAMS / DEADLINES</h2>
+                <div style="border:1px solid #ccc; padding:5mm; height:30mm;">
+                    <div class="checkbox-line"><span
+                            style="color:red; font-size:14pt; margin-right:2mm;">!</span><span>_______________________</span>
+                    </div>
+                    <div class="checkbox-line"><span
+                            style="color:red; font-size:14pt; margin-right:2mm;">!</span><span>_______________________</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exam Countdown Plan</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .countdown-header {
+            text-align: center;
+            border: 2px solid var(--gray-900);
+            padding: 5mm;
+            margin-bottom: 8mm;
+        }
+
+        .week-blocks {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8mm;
+        }
+
+        .week-block {
+            border: 1px solid var(--gray-300);
+            padding: 4mm;
+        }
+
+        .week-title {
+            background: var(--gray-900);
+            color: white;
+            padding: 2mm;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 4mm;
+        }
+
+        .review-box {
+            margin-top: 8mm;
+            border: 1px dashed var(--gray-500);
+            padding: 5mm;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <h1>Exam Countdown</h1>
+
+        <div class="countdown-header">
+            <span style="font-size: 12pt;">SUBJECT: __________________</span>
+            <span style="font-size: 12pt; margin-left: 10mm;">DATE: __________________</span>
+            <div style="font-size: 30pt; font-weight: 800; margin-top: 2mm;">D - 30 PLAN</div>
+        </div>
+
+        <div class="week-blocks">
+            <!-- Week 4 (D-30 to D-21) -->
+            <div class="week-block">
+                <div class="week-title">WEEK 4 (Concept)</div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span>Review Chapters 1-3</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span>Make Summaries</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span>Memorize Keywords</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+            </div>
+
+            <!-- Week 3 (D-20 to D-14) -->
+            <div class="week-block">
+                <div class="week-title">WEEK 3 (Deep Dive)</div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span>Review Chapters 4-7</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span>Practice Questions</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span>Group Study</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+            </div>
+
+            <!-- Week 2 (D-13 to D-7) -->
+            <div class="week-block">
+                <div class="week-title">WEEK 2 (Mocks)</div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span>Mock Exam 1</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span>Mock Exam 2</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span>Error Analysis</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+            </div>
+
+            <!-- Week 1 (D-6 to D-Day) -->
+            <div class="week-block">
+                <div class="week-title">WEEK 1 (Final)</div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span>Final Summary Review</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span>Health Management</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span>Pack Exam Kit</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div>
+                    <div class="line-input"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="review-box">
+            <h2>LAST MINUTE CHECKLIST</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap:5mm;">
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span>ID Card</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span>Calculator</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span>Pens/Pencils</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span>Watch</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span>Water</span>
+                </div>
+                <div class="checkbox-line">
+                    <div class="checkbox"></div><span>Summary Notes</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

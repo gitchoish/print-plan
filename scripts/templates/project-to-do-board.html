@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Project To-Do Board</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .kanban-board {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 5mm;
+            height: 200mm;
+            margin-top: 5mm;
+        }
+
+        .kanban-col {
+            border: 2px solid var(--gray-300);
+            background: var(--gray-100);
+            border-radius: 4px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .col-header {
+            background: var(--gray-700);
+            color: white;
+            padding: 3mm;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 2px 2px 0 0;
+        }
+
+        .col-body {
+            padding: 3mm;
+            flex: 1;
+        }
+
+        .task-card {
+            background: white;
+            border: 1px solid var(--gray-300);
+            padding: 3mm;
+            margin-bottom: 3mm;
+            border-radius: 2px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+            height: 20mm;
+        }
+
+        .priority-circles {
+            display: flex;
+            gap: 1mm;
+            margin-top: 2mm;
+        }
+
+        .p-circle {
+            width: 3mm;
+            height: 3mm;
+            border-radius: 50%;
+            border: 1px solid var(--gray-500);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <h1>Project KanBan Board</h1>
+
+        <div style="margin-bottom:5mm;">
+            <div style="font-size:14pt; border-bottom:1px solid #ccc; padding-bottom:1mm;">PROJECT:
+                _________________________</div>
+            <div style="font-size:10pt; color:#666; margin-top:2mm;">DEADLINE: _________________________</div>
+        </div>
+
+        <div class="kanban-board">
+            <!-- Backlog -->
+            <div class="kanban-col">
+                <div class="col-header">TO DO / BACKLOG</div>
+                <div class="col-body">
+                    <div class="task-card">
+                        <div class="line-input"></div>
+                        <div class="priority-circles">
+                            <div class="p-circle"></div>
+                            <div class="p-circle"></div>
+                            <div class="p-circle"></div>
+                        </div>
+                    </div>
+                    <div class="task-card">
+                        <div class="line-input"></div>
+                        <div class="priority-circles">
+                            <div class="p-circle"></div>
+                            <div class="p-circle"></div>
+                            <div class="p-circle"></div>
+                        </div>
+                    </div>
+                    <div class="task-card">
+                        <div class="line-input"></div>
+                        <div class="priority-circles">
+                            <div class="p-circle"></div>
+                            <div class="p-circle"></div>
+                            <div class="p-circle"></div>
+                        </div>
+                    </div>
+                    <div class="task-card">
+                        <div class="line-input"></div>
+                        <div class="priority-circles">
+                            <div class="p-circle"></div>
+                            <div class="p-circle"></div>
+                            <div class="p-circle"></div>
+                        </div>
+                    </div>
+                    <div class="task-card">
+                        <div class="line-input"></div>
+                        <div class="priority-circles">
+                            <div class="p-circle"></div>
+                            <div class="p-circle"></div>
+                            <div class="p-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- In Progress -->
+            <div class="kanban-col">
+                <div class="col-header">IN PROGRESS</div>
+                <div class="col-body">
+                    <div class="task-card">
+                        <div class="line-input"></div>
+                    </div>
+                    <div class="task-card">
+                        <div class="line-input"></div>
+                    </div>
+                    <div class="task-card">
+                        <div class="line-input"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Done -->
+            <div class="kanban-col">
+                <div class="col-header">COMPLETED</div>
+                <div class="col-body">
+                    <div class="task-card">
+                        <div class="line-input"></div>
+                        <div style="text-align:right; font-size:8pt; color:#999; margin-top:2mm;">Date: ___/___</div>
+                    </div>
+                    <div class="task-card">
+                        <div class="line-input"></div>
+                        <div style="text-align:right; font-size:8pt; color:#999; margin-top:2mm;">Date: ___/___</div>
+                    </div>
+                    <div class="task-card">
+                        <div class="line-input"></div>
+                        <div style="text-align:right; font-size:8pt; color:#999; margin-top:2mm;">Date: ___/___</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top:5mm; border:1px dashed #999; padding:3mm;">
+            <strong>NOTES / ROADBLOCKS:</strong>
+            <div class="line-input"></div>
+            <div class="line-input"></div>
+        </div>
+    </div>
+</body>
+
+</html>

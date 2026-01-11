@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pantry Inventory</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .inventory-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 5mm;
+        }
+
+        .inventory-table th {
+            border-bottom: 2px solid var(--gray-900);
+            text-align: left;
+            padding: 3mm;
+            font-size: 10pt;
+            background: var(--gray-100);
+        }
+
+        .inventory-table td {
+            border-bottom: 1px solid var(--gray-300);
+            padding: 3mm;
+            font-size: 10pt;
+        }
+
+        .inventory-table td.col-check {
+            width: 10mm;
+            text-align: center;
+        }
+
+        .inventory-table td.col-item {
+            /* flex: 1 */
+        }
+
+        .inventory-table td.col-qty {
+            width: 25mm;
+        }
+
+        .inventory-table td.col-exp {
+            width: 30mm;
+        }
+
+        .category-header {
+            background: var(--gray-700);
+            color: white;
+            padding: 2mm 5mm;
+            margin-top: 8mm;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <div
+            style="display:flex; justify-content:space-between; align-items:flex-end; border-bottom:4px solid #111; padding-bottom:5mm; margin-bottom:5mm;">
+            <h1 style="margin:0; border:none; text-align:left; padding:0;">Pantry Inventory</h1>
+            <div style="text-align:right;">
+                <span>Last Updated: ________________</span>
+            </div>
+        </div>
+
+        <!-- Section 1 -->
+        <div class="category-header">CANNED GOODS / JARS</div>
+        <table class="inventory-table">
+            <thead>
+                <tr>
+                    <th class="col-item">ITEM</th>
+                    <th class="col-qty">QTY</th>
+                    <th class="col-exp">EXP DATE</th>
+                    <th class="col-check">RESTOCK?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-check">
+                        <div class="checkbox"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-check">
+                        <div class="checkbox"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-check">
+                        <div class="checkbox"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-check">
+                        <div class="checkbox"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-check">
+                        <div class="checkbox"></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Section 2 -->
+        <div class="category-header">GRAINS / PASTA / BAKING</div>
+        <table class="inventory-table">
+            <tbody>
+                <tr>
+                    <td class="col-item">
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-qty">
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-exp">
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-check">
+                        <div class="checkbox"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-check">
+                        <div class="checkbox"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-check">
+                        <div class="checkbox"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-check">
+                        <div class="checkbox"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-check">
+                        <div class="checkbox"></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Section 3 -->
+        <div class="category-header">SPICES / OILS / CONDIMENTS</div>
+        <table class="inventory-table">
+            <tbody>
+                <tr>
+                    <td class="col-item">
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-qty">
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-exp">
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-check">
+                        <div class="checkbox"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-check">
+                        <div class="checkbox"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-check">
+                        <div class="checkbox"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-check">
+                        <div class="checkbox"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-check">
+                        <div class="checkbox"></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Section 4 -->
+        <div class="category-header">SNACKS / MISC</div>
+        <table class="inventory-table">
+            <tbody>
+                <tr>
+                    <td class="col-item">
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-qty">
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-exp">
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-check">
+                        <div class="checkbox"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-check">
+                        <div class="checkbox"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-check">
+                        <div class="checkbox"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-check">
+                        <div class="checkbox"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td>
+                        <div class="line-input"></div>
+                    </td>
+                    <td class="col-check">
+                        <div class="checkbox"></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

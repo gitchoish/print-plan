@@ -1,0 +1,22 @@
+.guide-card-link {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+}
+
+.guide-card-link:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.guide-card-link .read-more {
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: auto;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}

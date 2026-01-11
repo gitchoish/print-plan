@@ -1,0 +1,152 @@
+[
+    {
+        "id": "how-to-use-printables-on-ipad",
+        "slug": "how-to-use-printables-on-ipad",
+        "title": "How to Use Printables on iPad (GoodNotes/Notability)",
+        "description": "Learn how to transition from paper to digital planning by using our PDF templates on your iPad.",
+        "category": "Tech Guide",
+        "tags": [
+            "iPad",
+            "Digital Planning",
+            "Tutorial"
+        ],
+        "heroImage": "/images/guides/ipad-planning.jpg",
+        "updatedAt": "2026-01-09T00:00:00Z",
+        "body": "## The Ultimate Guide to Digital Planning on iPad\n\nTransitioning from physical paper to digital planning is a game-changer for many productivity enthusiasts. It offers the best of both worlds: the tactile feel of handwriting combined with the powerful organization and search capabilities of digital tools. In this guide, we'll walk you through exactly how to take any of our 'printable' PDF templates and use them as professional digital planners on your iPad."
+    },
+    {
+        "id": "how-to-print-without-margins",
+        "slug": "how-to-print-without-margins",
+        "title": "How to Print Without Margins (A4/Letter)",
+        "description": "Stop wasting space! Learn the exact printer settings to get beautiful, full-page prints of your templates.",
+        "category": "Print Guide",
+        "tags": [
+            "Printing",
+            "Setup",
+            "Beginner"
+        ],
+        "heroImage": "/images/guides/printing-margins.jpg",
+        "updatedAt": "2026-01-09T00:00:00Z",
+        "body": "## Stop the White Border: A Guide to Borderless Printing\n\nThere's nothing more frustrating than downloading a beautiful, full-page template only to have your printer add 1/4 inch of white space around the edges. Not only does it look less professional, but it also reduces the usable writing area on your checklist or planner. In this guide, we'll explain why printers add margins and how you can override them for a perfect 'full-bleed' look."
+    },
+    {
+        "id": "how-to-build-a-cleaning-schedule",
+        "slug": "how-to-build-a-cleaning-schedule",
+        "title": "How to Build a Cleaning Schedule That Sticks",
+        "description": "Stop the cycle of marathon cleaning. Learn the psychological tricks to stay consistent with your chores.",
+        "category": "Home Guide",
+        "tags": [
+            "Home Management",
+            "Cleaning",
+            "Consistency"
+        ],
+        "heroImage": "/images/guides/cleaning-schedule.jpg",
+        "updatedAt": "2026-01-09T00:00:00Z",
+        "body": "## Consistency Over Intensity: The Secret to a Clean Home\n\nMost people fail at their cleaning routines not because they lack discipline, but because their schedule is too ambitious. We call this the 'New Year's Resolution Trap'—you decide to clean everything every day, do it for three days, get exhausted, and then do nothing for two weeks. This guide will show you how to build a realistic cleaning schedule that actually integrates with your life, not competes with it."
+    },
+    {
+        "id": "time-blocking-for-beginners",
+        "slug": "time-blocking-for-beginners",
+        "title": "Time Blocking for Beginners",
+        "description": "Reclaim your schedule by assigning every hour a specific task. A simple guide to the most popular productivity method.",
+        "category": "Productivity",
+        "tags": [
+            "Productivity",
+            "Time Management",
+            "Planning"
+        ],
+        "heroImage": "/images/guides/time-blocking.jpg",
+        "updatedAt": "2026-01-09T00:00:00Z",
+        "body": "## From To-Do Lists to Time Blocks: A Better Way to Work\n\nThe traditional to-do list is flawed. It's just a list of wishes with no accounting for whether you actually have the time to do them. This leads to the 'end-of-day guilt' where you have 10 things left on your list and no energy. Time blocking solves this by turning your to-do list into a 3D plan for your day."
+    },
+    {
+        "id": "weekly-review-method",
+        "slug": "weekly-review-method",
+        "title": "Weekly Review Method (Simple)",
+        "description": "The 20-minute habit that will save you 10 hours of stress every week. A step-by-step guide to the perfect Sunday reset.",
+        "category": "Productivity",
+        "tags": [
+            "Planning",
+            "Review",
+            "Organization"
+        ],
+        "heroImage": "/images/guides/weekly-review.jpg",
+        "updatedAt": "2026-01-09T00:00:00Z",
+        "body": "## The 20-Minute Sunday Reset\n\nThe reason most week-long plans fail isn't a lack of effort—it's a lack of perspective. We get so caught up in the 'doing' during the week that we forget to look at the 'big picture.' The Weekly Review is a systematic way to clear your head, review your progress, and set yourself up for a win on Monday morning."
+    },
+    {
+        "id": "how-to-bind-your-printables",
+        "slug": "how-to-bind-your-printables",
+        "title": "How to Bind Your Printables (DIY Guide)",
+        "description": "Turn your loose printouts into a professional-looking journal or planner.",
+        "category": "Home Guide",
+        "tags": [
+            "DIY",
+            "Organization",
+            "Crafting"
+        ],
+        "heroImage": "/images/guides/diy-binding.jpg",
+        "updatedAt": "2026-01-09T00:00:00Z",
+        "body": "## Professional Planner on a Budget: DIY Binding Methods\n\nYou've downloaded your templates, printed them without margins, and now you have a stack of beautiful pages. But how do you keep them together? While a 3-ring binder is the easiest option, it can be bulky. This guide explores several DIY binding methods."
+    },
+    {
+        "id": "habit-stacking-101",
+        "slug": "habit-stacking-101",
+        "title": "Habit Stacking 101: The Secret to Transformation",
+        "description": "Learn the most powerful habit-forming technique used by high-performers.",
+        "category": "Productivity",
+        "tags": [
+            "Habits",
+            "Psychology",
+            "Self-Improvement"
+        ],
+        "heroImage": "/images/guides/habit-stacking.jpg",
+        "updatedAt": "2026-01-09T00:00:00Z",
+        "body": "## Stop Relying on Willpower: The Power of Habit Stacking\n\nWillpower is a finite resource. It's like a battery that drains throughout the day as you make decisions and resist temptations. This is why most people fail at their goals by the time 7:00 PM rolls around. Habit Stacking is the solution."
+    },
+    {
+        "id": "managing-digital-clutter",
+        "slug": "managing-digital-clutter",
+        "title": "Managing Digital Clutter: A 3-Day Reset",
+        "description": "Reclaim your focus with this step-by-step digital declutter.",
+        "category": "Tech Guide",
+        "tags": [
+            "Digital Minimalism",
+            "Organization",
+            "Focus"
+        ],
+        "heroImage": "/images/guides/digital-clutter.jpg",
+        "updatedAt": "2026-01-09T00:00:00Z",
+        "body": "## The Silent Distraction: How to Reset Your Digital Life\n\nPhysical clutter is obvious—we see the laundry pile and the messy desk. Digital clutter is invisible, but it's just as draining. A cluttered desktop, 14,000 unread emails, and 50 apps you never use create a constant state of low-level anxiety that kills focus."
+    },
+    {
+        "id": "pomodoro-technique-for-students",
+        "slug": "pomodoro-technique-for-students",
+        "title": "The Pomodoro Technique for Students",
+        "description": "Stop procrastinating and start studying. A deep dive into the 25-minute focus method.",
+        "category": "Education",
+        "tags": [
+            "Study",
+            "Productivity",
+            "Focus"
+        ],
+        "heroImage": "/images/guides/pomodoro.jpg",
+        "updatedAt": "2026-01-09T00:00:00Z",
+        "body": "## Work with Time, Not Against It: The Pomodoro Method\n\nFor students, the biggest enemy isn't the difficulty of the material—it's the clock. We either procrastinate until the last second or we try to study for six hours straight, leading to total burnout and zero retention. The Pomodoro Technique uses a timer to break work into intervals."
+    },
+    {
+        "id": "creating-the-perfect-home-office",
+        "slug": "creating-the-perfect-home-office",
+        "title": "Creating the Perfect Home Office (on a Budget)",
+        "description": "Learn the essentials of ergonomics and lighting for under $100.",
+        "category": "Home Guide",
+        "tags": [
+            "Home Office",
+            "Organization",
+            "Productivity"
+        ],
+        "heroImage": "/images/guides/home-office.jpg",
+        "updatedAt": "2026-01-09T00:00:00Z",
+        "body": "## Design for Focus: The Budget-Friendly Home Office Guide\n\nWorking from home is a privilege, but working from your couch is a recipe for back pain and low productivity. You don't need a sprawling dedicated room or a $1,000 ergonomic chair to create a space that supports your best work."
+    }
+]

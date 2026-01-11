@@ -1,0 +1,35 @@
+.ad-slot-placeholder {
+    background: #f1f5f9;
+    border: 1px dashed #cbd5e1;
+    border-radius: var(--radius-md);
+    padding: 1rem;
+    text-align: center;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    color: var(--text-muted);
+}
+
+.ad-slot-placeholder.sidebar {
+    min-height: 250px;
+}
+
+.ad-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+}
+
+.ad-info {
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+}
+
+.ad-note {
+    font-size: 0.75rem;
+}
