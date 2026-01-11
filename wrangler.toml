@@ -1,10 +1,18 @@
 name = "print-plan"
-main = "index.html"
 
+# Cloudflare Pages Configuration
 [build]
-command = "npm run build"
+command = "npm install && npm run build"
 cwd = "./"
-watch_paths = ["src/**/*.jsx", "src/**/*.js", "src/**/*.css", "public/**/*"]
+watch_paths = []
 
 [build.upload]
 dir = "dist"
+
+# Environment variables
+[env.production]
+vars = { ENVIRONMENT = "production" }
+
+[env.development]
+vars = { ENVIRONMENT = "development" }
+
