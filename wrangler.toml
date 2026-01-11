@@ -1,0 +1,10 @@
+name = "print-plan"
+main = "index.html"
+
+[build]
+command = "npm run build"
+cwd = "./"
+watch_paths = ["src/**/*.jsx", "src/**/*.js", "src/**/*.css", "public/**/*"]
+
+[build.upload]
+dir = "dist"
