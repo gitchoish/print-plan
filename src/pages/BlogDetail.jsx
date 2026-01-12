@@ -20,15 +20,43 @@ const BlogDetail = () => {
         );
     }
 
-    const currentIndex = blogData.findIndex(p => p.id === post.id);
-    const nextPost = blogData[(currentIndex + 1) % blogData.length];
+    const handleShare = (platform) => {
+        const url = window.location.href;
+        const title = post.title;
+        const text = post.description;
 
-    const renderMarkdown = (text) => {
-        return text
-            .replace(/^## (.*$)/gim, (match, p1) => `<h2 id="${p1.toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '-')}">${p1}</h2>`)
-            .replace(/^### (.*$)/gim, (match, p1) => `<h3 id="${p1.toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '-')}">${p1}</h3>`)
-            .replace(/\*\*(.*)\*\*/gim, '<strong>$1</strong>')
-            .replace(/\n\n/g, '<br/><br/>');
+        if (platform === 'instagram' || platform === 'share') {
+            if (navigator.share) {
+                navigator.share({
+                    title: title,
+                    text: text,
+                    url: url
+                }).then(() => console.log('Successful share'))
+                    .catch((error) => console.log('Error sharing', error));
+                return;
+            } else {
+                navigator.clipboard.writeText(url);
+                alert('Link copied to clipboard! You can now share it on Instagram.');
+                return;
+            }
+        }
+
+        let shareUrl = '';
+        const encodedUrl = encodeURIComponent(url);
+        const encodedTitle = encodeURIComponent(title);
+
+        switch (platform) {
+            case 'facebook':
+                shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`;
+                break;
+            case 'twitter':
+                shareUrl = `https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedTitle}`;
+                break;
+            default:
+                return;
+        }
+
+        window.open(shareUrl, '_blank', 'width=600,height=400');
     };
 
     return (
@@ -86,10 +114,19 @@ const BlogDetail = () => {
 
                         <section className="related-section">
                             <h3 className="section-title">Share this Post</h3>
-                            <div className="share-links" style={{ display: 'flex', gap: '1rem' }}>
-                                <button className="btn btn-sm" style={{ background: '#1877F2', color: 'white' }}>Facebook</button>
-                                <button className="btn btn-sm" style={{ background: '#1DA1F2', color: 'white' }}>Twitter</button>
-                                <button className="btn btn-sm" style={{ background: '#E60023', color: 'white' }}>Pinterest</button>
+                            <div className="share-links" style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
+                                <button onClick={() => handleShare('facebook')} className="btn btn-sm" style={{ background: '#1877F2', color: 'white', border: 'none' }}>
+                                    Facebook
+                                </button>
+                                <button onClick={() => handleShare('twitter')} className="btn btn-sm" style={{ background: '#1DA1F2', color: 'white', border: 'none' }}>
+                                    Twitter
+                                </button>
+                                <button onClick={() => handleShare('instagram')} className="btn btn-sm" style={{ background: 'linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)', color: 'white', border: 'none' }}>
+                                    Instagram
+                                </button>
+                                <button onClick={() => handleShare('share')} className="btn btn-sm btn-outline">
+                                    Copy Link
+                                </button>
                             </div>
                         </section>
                     </div>

@@ -39,7 +39,7 @@ const Contact = () => {
                         <div className="contact-info" style={{ textAlign: 'center' }}>
                             <div style={{ marginBottom: '2rem' }}>
                                 <h3 style={{ marginBottom: '0.5rem' }}>Email Us Directly</h3>
-                                <p style={{ color: 'var(--primary)', fontWeight: '700', fontSize: '1.25rem' }}>hello@printplanlab.com</p>
+                                <p style={{ color: 'var(--primary)', fontWeight: '700', fontSize: '1.25rem' }}>csh9609@gmail.com</p>
                                 <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)' }}>We typically respond within 24-48 business hours.</p>
                             </div>
                         </div>

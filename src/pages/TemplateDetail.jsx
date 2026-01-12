@@ -32,6 +32,44 @@ const TemplateDetail = () => {
             id: line.replace(/^#+ /, '').toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '-')
         }));
 
+    const handleShare = (platform) => {
+        const url = window.location.href;
+        const title = template.title;
+        const text = template.description;
+
+        if (platform === 'instagram' || platform === 'share') {
+            if (navigator.share) {
+                navigator.share({
+                    title: title,
+                    text: text,
+                    url: url
+                }).catch(console.error);
+                return;
+            } else {
+                navigator.clipboard.writeText(url);
+                alert('Link copied to clipboard! You can now share it on Instagram.');
+                return;
+            }
+        }
+
+        let shareUrl = '';
+        const encodedUrl = encodeURIComponent(url);
+        const encodedTitle = encodeURIComponent(title);
+
+        switch (platform) {
+            case 'facebook':
+                shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`;
+                break;
+            case 'twitter':
+                shareUrl = `https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedTitle}`;
+                break;
+            default:
+                return;
+        }
+
+        window.open(shareUrl, '_blank', 'width=600,height=400');
+    };
+
     const renderMarkdown = (text) => {
         return text
             .replace(/^## (.*$)/gim, (match, p1) => `<h2 id="${p1.toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '-')}">${p1}</h2>`)
@@ -108,6 +146,16 @@ const TemplateDetail = () => {
                                     <a href={template.downloadLinks.png} className="btn btn-outline" download>Download PNG Image</a>
                                 </div>
                                 <p className="download-note">Files are for personal use only. Do not redistribute.</p>
+                            </div>
+                        </section>
+
+                        <section className="share-section" style={{ marginTop: '2rem', padding: '2rem', border: '1px solid var(--border)', borderRadius: 'var(--radius-lg)', textAlign: 'center' }}>
+                            <h3 style={{ marginBottom: '1rem' }}>Share this Template</h3>
+                            <div className="share-links" style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+                                <button onClick={() => handleShare('facebook')} className="btn btn-sm" style={{ background: '#1877F2', color: 'white', border: 'none' }}>Facebook</button>
+                                <button onClick={() => handleShare('twitter')} className="btn btn-sm" style={{ background: '#1DA1F2', color: 'white', border: 'none' }}>Twitter</button>
+                                <button onClick={() => handleShare('instagram')} className="btn btn-sm" style={{ background: 'linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)', color: 'white', border: 'none' }}>Instagram</button>
+                                <button onClick={() => handleShare('share')} className="btn btn-sm btn-outline">Copy Link</button>
                             </div>
                         </section>
 
