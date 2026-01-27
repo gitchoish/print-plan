@@ -8,12 +8,13 @@ const TemplateCard = ({ template }) => {
             <div className="card-image">
                 <img src={template.heroImage} alt={template.title} />
                 <span className="card-category">{template.category}</span>
+                <span className="card-badge">Free PDF</span>
             </div>
             <div className="card-content">
                 <h3 className="card-title">{template.title}</h3>
                 <p className="card-description">{template.description}</p>
                 <Link to={`/templates/${template.slug}`} className="btn btn-primary card-btn">
-                    View Template
+                    Download Template
                 </Link>
             </div>
         </div>

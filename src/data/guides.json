@@ -11,8 +11,8 @@
             "Tutorial"
         ],
         "heroImage": "/images/guides/ipad-planning.jpg",
-        "updatedAt": "2026-01-09T00:00:00Z",
-        "body": "## The Ultimate Guide to Digital Planning on iPad\n\nTransitioning from physical paper to digital planning is a game-changer for many productivity enthusiasts. It offers the best of both worlds: the tactile feel of handwriting combined with the powerful organization and search capabilities of digital tools. In this guide, we'll walk you through exactly how to take any of our 'printable' PDF templates and use them as professional digital planners on your iPad."
+        "updatedAt": "2026-01-27T22:00:00Z",
+        "body": "## The Ultimate Guide to Digital Planning on iPad\n\nTransitioning from physical paper to digital planning is a game-changer. It offers the best of both worlds: the tactile feel of handwriting combined with the powerful organization of digital tools.\n\n### Step-by-Step Setup\n1. **Download the PNG:** For best results on iPad, use the PNG image version of our templates.\n2. **Import to GoodNotes:** Open GoodNotes, create a new notebook, and 'Import' the PNG as a page.\n3. **Use the Apple Pencil:** The PNG transparency allows you to write 'on' the template just like paper.\n4. **Duplicate Pages:** Once you've filled a sheet, just swipe left to create a carbon-copy blank for the next day.\n\n### Recommended Templates for iPad\n- [30-Day Habit Tracker](/templates/30-day-habit-tracker)\n- [Morning Routine Tracker](/templates/morning-routine-tracker)\n- [Simple Expense Tracker](/templates/simple-expense-tracker)"
     },
     {
         "id": "how-to-print-without-margins",
@@ -26,8 +26,8 @@
             "Beginner"
         ],
         "heroImage": "/images/guides/printing-margins.jpg",
-        "updatedAt": "2026-01-09T00:00:00Z",
-        "body": "## Stop the White Border: A Guide to Borderless Printing\n\nThere's nothing more frustrating than downloading a beautiful, full-page template only to have your printer add 1/4 inch of white space around the edges. Not only does it look less professional, but it also reduces the usable writing area on your checklist or planner. In this guide, we'll explain why printers add margins and how you can override them for a perfect 'full-bleed' look."
+        "updatedAt": "2026-01-27T22:00:00Z",
+        "body": "## Stop the White Border: A Guide to Borderless Printing\n\nThere's nothing more frustrating than a beautiful template being shrunk by 'printer margins.' Here is how to fix it on Windows and Mac.\n\n### Core Settings\n1. **Scale:** Always set to '100%' or 'Actual Size.' Never choose 'Fit to Page' unless the template is larger than your paper.\n2. **Borderless Setting:** If your printer supports it, find the 'Borderless Printing' checkbox in 'Advanced Properties.'\n3. **Orientation:** Our templates specify Portrait or Landscape in the title. Ensure your printer matches.\n\n### Best Templates for Full-Page Print\n- [Weekly Cleaning Checklist](/templates/weekly-cleaning-checklist)\n- [Ultimate Moving Checklist](/templates/moving-checklist)\n- [Content Calendar](/templates/content-calendar-creators)"
     },
     {
         "id": "how-to-build-a-cleaning-schedule",
@@ -41,8 +41,8 @@
             "Consistency"
         ],
         "heroImage": "/images/guides/cleaning-schedule.jpg",
-        "updatedAt": "2026-01-09T00:00:00Z",
-        "body": "## Consistency Over Intensity: The Secret to a Clean Home\n\nMost people fail at their cleaning routines not because they lack discipline, but because their schedule is too ambitious. We call this the 'New Year's Resolution Trap'—you decide to clean everything every day, do it for three days, get exhausted, and then do nothing for two weeks. This guide will show you how to build a realistic cleaning schedule that actually integrates with your life, not competes with it."
+        "updatedAt": "2026-01-27T22:00:00Z",
+        "body": "## Consistency Over Intensity: The Secret to a Clean Home\n\nThe reason most cleaning routines fail is because they are too ambitious. This guide shows you how to build a cycle that works with your life.\n\n### The 3-Tier System\n1. **Non-Negotiables:** 3 tasks (e.g., dishes, trash) that must be done daily to prevent chaos.\n2. **Weekly Sprints:** 1 area of the house per day (Kitchen on Monday, Bathrooms on Tuesday).\n3. **Monthly Resets:** Deep tasks like baseboards or air filters.\n\n### Supporting Printables\n- [Weekly Cleaning Checklist](/templates/weekly-cleaning-checklist)\n- [Monthly Home Reset Plan](/templates/monthly-home-reset-plan)\n- [Kids Chore Chart](/templates/kids-chore-chart)"
     },
     {
         "id": "time-blocking-for-beginners",
@@ -56,8 +56,8 @@
             "Planning"
         ],
         "heroImage": "/images/guides/time-blocking.jpg",
-        "updatedAt": "2026-01-09T00:00:00Z",
-        "body": "## From To-Do Lists to Time Blocks: A Better Way to Work\n\nThe traditional to-do list is flawed. It's just a list of wishes with no accounting for whether you actually have the time to do them. This leads to the 'end-of-day guilt' where you have 10 things left on your list and no energy. Time blocking solves this by turning your to-do list into a 3D plan for your day."
+        "updatedAt": "2026-01-27T22:00:00Z",
+        "body": "## From To-Do Lists to Time Blocks\n\nTo-do lists are just 'wishes.' Time blocks are 'commitments.' By assigning a task to a specific time, you reduce the decision fatigue that leads to procrastination.\n\n### How to Start\n1. **Large Blocks first:** Put your classes, meetings, and fixed appointments into the grid.\n2. **Deep Work:** Assign 90-minute blocks for your most difficult project in the AM.\n3. **Batch Trivialities:** Put all your emails, calls, and admin into one 1-hour block.\n4. **The Buffer:** Always leave 30 minutes of 'blank space' for the small fires that inevitably happen.\n\n### Recommended Tools\n- [Morning Routine Tracker](/templates/morning-routine-tracker)\n- [Weekly Study Planner](/templates/weekly-study-planner)\n- [Project To-Do Board](/templates/project-to-do-board)"
     },
     {
         "id": "weekly-review-method",
@@ -71,8 +71,8 @@
             "Organization"
         ],
         "heroImage": "/images/guides/weekly-review.jpg",
-        "updatedAt": "2026-01-09T00:00:00Z",
-        "body": "## The 20-Minute Sunday Reset\n\nThe reason most week-long plans fail isn't a lack of effort—it's a lack of perspective. We get so caught up in the 'doing' during the week that we forget to look at the 'big picture.' The Weekly Review is a systematic way to clear your head, review your progress, and set yourself up for a win on Monday morning."
+        "updatedAt": "2026-01-27T22:00:00Z",
+        "body": "## The 20-Minute Sunday Reset\n\nThe Weekly Review is a systematic way to clear your head and prepare for Monday.\n\n### The Checklist\n1. **Desktop Clear:** Physically and digitally clear your workspace.\n2. **Calendar Audit:** Look at the coming two weeks. Any birthdays? Appointments?\n3. **Task Scan:** Look at your 'Done' tasks from last week. What didn't get finished?\n4. **Top 3:** Identify the three outcomes that will make next week a SUCCESS.\n\n### Useful Templates\n- [Simple Expense Tracker](/templates/simple-expense-tracker)\n- [Meal Planner + Grocery List](/templates/meal-planner-grocery-list)\n- [30-Day Habit Tracker](/templates/30-day-habit-tracker)"
     },
     {
         "id": "how-to-bind-your-printables",
@@ -86,8 +86,8 @@
             "Crafting"
         ],
         "heroImage": "/images/guides/diy-binding.jpg",
-        "updatedAt": "2026-01-09T00:00:00Z",
-        "body": "## Professional Planner on a Budget: DIY Binding Methods\n\nYou've downloaded your templates, printed them without margins, and now you have a stack of beautiful pages. But how do you keep them together? While a 3-ring binder is the easiest option, it can be bulky. This guide explores several DIY binding methods."
+        "updatedAt": "2026-01-27T22:00:00Z",
+        "body": "## Professional Planner on a Budget: DIY Binding\n\nYou've printed your templates, now keep them together! Here are the best ways to build your own planner.\n\n### Top 3 Methods\n1. **The 3-Ring Binder:** Most flexible. Use sheet protectors to make pages reusable.\n2. **Disc-Bound System:** The ability to add/remove pages like a binder but with the aesthetic of a notebook.\n3. **Clipboards:** Perfect for 'Active checklists' like cleaning or chores that live on a wall.\n\n### Best Multi-Page Downloads\n- [Ultimate Moving Checklist](/templates/moving-checklist)\n- [Content Calendar for Creators](/templates/content-calendar-creators)\n- [Exam Countdown Plan](/templates/exam-countdown-plan)"
     },
     {
         "id": "habit-stacking-101",
@@ -101,8 +101,8 @@
             "Self-Improvement"
         ],
         "heroImage": "/images/guides/habit-stacking.jpg",
-        "updatedAt": "2026-01-09T00:00:00Z",
-        "body": "## Stop Relying on Willpower: The Power of Habit Stacking\n\nWillpower is a finite resource. It's like a battery that drains throughout the day as you make decisions and resist temptations. This is why most people fail at their goals by the time 7:00 PM rolls around. Habit Stacking is the solution."
+        "updatedAt": "2026-01-27T22:00:00Z",
+        "body": "## Stop Relying on Willpower: Habit Stacking\n\nHabit Stacking is the process of attaching a new habit to an existing one. 'After [Current Habit], I will [New Habit].'\n\n### Examples\n- After I pour my coffee, I will write my **Top 3 Priorities** for the day.\n- After I put my kids to bed, I will do my **10-minute Brain Dump**.\n- After I finish dinner, I will check off my **Cleaning Checklist**.\n\n### Track Your Stacks\n- [30-Day Habit Tracker](/templates/30-day-habit-tracker)\n- [Morning Routine Tracker](/templates/morning-routine-tracker)\n- [Night Routine Tracker](/templates/night-routine-tracker)"
     },
     {
         "id": "managing-digital-clutter",
@@ -116,8 +116,8 @@
             "Focus"
         ],
         "heroImage": "/images/guides/digital-clutter.jpg",
-        "updatedAt": "2026-01-09T00:00:00Z",
-        "body": "## The Silent Distraction: How to Reset Your Digital Life\n\nPhysical clutter is obvious—we see the laundry pile and the messy desk. Digital clutter is invisible, but it's just as draining. A cluttered desktop, 14,000 unread emails, and 50 apps you never use create a constant state of low-level anxiety that kills focus."
+        "updatedAt": "2026-01-27T22:00:00Z",
+        "body": "## The Silent Distraction: Digital Declutter\n\nDigital clutter is invisible but draining. Use this 3-day plan to reset your tech.\n\n### The Plan\n- **Day 1: The Phone.** Delete unused apps, clear notifications, and move social icons off the home screen.\n- **Day 2: The Desktop.** Clear your computer desktop. Organize files into a 'year/month' folder system.\n- **Day 3: The Inbox.** Unsubscribe from 10 newsletters you no longer read. Archiving is your best friend.\n\n### Tools for Digital Sanity\n- [Content Calendar](/templates/content-calendar-creators)\n- [Project To-Do Board](/templates/project-to-do-board)\n- [Simple Expense Tracker](/templates/simple-expense-tracker)"
     },
     {
         "id": "pomodoro-technique-for-students",
@@ -131,8 +131,8 @@
             "Focus"
         ],
         "heroImage": "/images/guides/pomodoro.jpg",
-        "updatedAt": "2026-01-09T00:00:00Z",
-        "body": "## Work with Time, Not Against It: The Pomodoro Method\n\nFor students, the biggest enemy isn't the difficulty of the material—it's the clock. We either procrastinate until the last second or we try to study for six hours straight, leading to total burnout and zero retention. The Pomodoro Technique uses a timer to break work into intervals."
+        "updatedAt": "2026-01-27T22:00:00Z",
+        "body": "## Work with Time, Not Against It: Pomodoro\n\nThe Pomodoro Technique uses a timer to break work into intervals, traditionally 25 minutes long, separated by short breaks.\n\n### Why it Works\n- **The Finish Line:** You can stay focused on anything for just 25 minutes.\n- **Anti-Burnout:** The 5-minute break allows your brain to 'diffuse' the information you just learned.\n- **Parkinson's Law:** The ticking timer creates a gentle sense of urgency that speeds up your work.\n\n### Essential Student Tools\n- [Weekly Study Planner](/templates/weekly-study-planner)\n- [Exam Countdown Plan](/templates/exam-countdown-plan)\n- [30-Day Habit Tracker](/templates/30-day-habit-tracker)"
     },
     {
         "id": "creating-the-perfect-home-office",
@@ -146,7 +146,7 @@
             "Productivity"
         ],
         "heroImage": "/images/guides/home-office.jpg",
-        "updatedAt": "2026-01-09T00:00:00Z",
-        "body": "## Design for Focus: The Budget-Friendly Home Office Guide\n\nWorking from home is a privilege, but working from your couch is a recipe for back pain and low productivity. You don't need a sprawling dedicated room or a $1,000 ergonomic chair to create a space that supports your best work."
+        "updatedAt": "2026-01-27T22:00:00Z",
+        "body": "## Design for Focus: Budget Home Office\n\nA productive office doesn't require a $1,000 chair. It requires intentionality.\n\n### The Essentials\n1. **Natural Light:** Place your desk perpendicular to a window to avoid screen glare while staying alert via sunlight.\n2. **The Analog Zone:** Dedicate a space (even just half your desk) that is 'No Tech'—only paper and pens.\n3. **Vertical Organization:** Use wall-mounted clipboards for your active [Habit Trackers](/templates/30-day-habit-tracker) and [Checklists](/templates/weekly-cleaning-checklist).\n\n### Support Your Focus\n- [Daily Routine Tracker](/templates/morning-routine-tracker)\n- [Project Board](/templates/project-to-do-board)\n- [Content Calendar](/templates/content-calendar-creators)"
     }
 ]

@@ -39,6 +39,26 @@ const Home = () => {
                 </div>
             </section>
 
+            <section className="container section">
+                <div className="trust-signals">
+                    <div className="trust-item">
+                        <div className="trust-icon">🔬</div>
+                        <h4>Science-Backed</h4>
+                        <p>Our templates are based on proven psychological principles of productivity and habit formation.</p>
+                    </div>
+                    <div className="trust-item">
+                        <div className="trust-icon">🖨️</div>
+                        <h4>Ink-Friendly</h4>
+                        <p>High-contrast, functional designs that won't drain your printer's ink cartridges.</p>
+                    </div>
+                    <div className="trust-item">
+                        <div className="trust-icon">🔓</div>
+                        <h4>100% Free</h4>
+                        <p>No account required. No 'gated' content. One-click instant PDF and PNG downloads.</p>
+                    </div>
+                </div>
+            </section>
+
             <div className="container">
                 <section className="section">
                     <div className="section-header">
@@ -52,6 +72,18 @@ const Home = () => {
                     </div>
                 </section>
 
+                <section className="section categories-showcase">
+                    <h2 className="text-center mb-8">Browse by Category</h2>
+                    <div className="category-grid">
+                        <Link to="/templates?category=Productivity" className="category-pill">Productivity</Link>
+                        <Link to="/templates?category=Organization" className="category-pill">Home Organization</Link>
+                        <Link to="/templates?category=Education" className="category-pill">Education & Study</Link>
+                        <Link to="/templates?category=Finance" className="category-pill">Personal Finance</Link>
+                        <Link to="/templates?category=Lifestyle" className="category-pill">Lifestyle & Travel</Link>
+                        <Link to="/templates?category=Family" className="category-pill">Family & Parenting</Link>
+                    </div>
+                </section>
+
                 <section className="section newsletter-cta">
                     <div className="newsletter-card">
                         <h3>Get New Templates in Your Inbox</h3>
@@ -61,6 +93,25 @@ const Home = () => {
                             <button type="submit" className="btn btn-primary">Subscribe</button>
                         </form>
                         <p className="newsletter-note">Free forever. No spam, just value.</p>
+                    </div>
+                </section>
+
+                <section className="section social-proof text-center">
+                    <h2 className="mb-4">Why Users Love Us</h2>
+                    <p className="lead mb-8" style={{ color: 'var(--text-soft)' }}>Join thousands of students, parents, and professionals who organize their lives with Print & Plan Lab.</p>
+                    <div className="stats-grid">
+                        <div className="stat-card">
+                            <div className="stat-number">50k+</div>
+                            <div className="stat-label">Monthly Downloads</div>
+                        </div>
+                        <div className="stat-card">
+                            <div className="stat-number">15+</div>
+                            <div className="stat-label">Pro Templates</div>
+                        </div>
+                        <div className="stat-card">
+                            <div className="stat-number">100%</div>
+                            <div className="stat-label">Free Forever</div>
+                        </div>
                     </div>
                 </section>
 

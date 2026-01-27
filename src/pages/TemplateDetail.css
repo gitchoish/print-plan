@@ -1,35 +1,8 @@
-.detail-header {
-    padding: 3rem 0;
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 3rem;
-}
-
-.breadcrumbs {
-    font-size: 0.8125rem;
-    color: var(--text-muted);
-    margin-bottom: 1rem;
-}
-
-.breadcrumbs a:hover {
-    color: var(--primary);
-}
-
-.detail-title {
-    font-size: 2.75rem;
-    margin-bottom: 0.75rem;
-}
-
-.detail-meta {
+.detail-hero-summary {
+    font-size: 1.25rem;
     color: var(--text-soft);
-    font-size: 0.875rem;
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-}
-
-.dot {
-    color: var(--border);
+    margin-bottom: 1.5rem;
+    max-width: 800px;
 }
 
 .detail-layout {
@@ -44,10 +17,50 @@
     }
 }
 
+.detail-hero-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+    .detail-hero-section {
+        grid-template-columns: 1fr 280px;
+    }
+}
+
 .detail-hero-img {
     width: 100%;
     border-radius: var(--radius-lg);
-    margin-bottom: 2rem;
+    box-shadow: var(--shadow-md);
+}
+
+.file-info-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    height: fit-content;
+}
+
+.file-info-box h4 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem;
+    color: var(--text-main);
+}
+
+.file-info-box ul {
+    margin-bottom: 1.5rem;
+}
+
+.file-info-box li {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .detail-body {
@@ -55,51 +68,175 @@
     color: var(--text-soft);
 }
 
-.detail-body h2 {
-    color: var(--text-main);
-    margin-top: 3rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid var(--border);
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .content-grid {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .detail-body h3 {
     color: var(--text-main);
-    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
 }
 
-.toc-box {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-md);
-    padding: 1.5rem;
-    margin-bottom: 3rem;
+.detail-body ul,
+.detail-body ol {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
-.toc-title {
-    margin-bottom: 1rem;
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+.detail-body li {
+    margin-bottom: 0.75rem;
 }
 
-.toc-box ul {
+.who-this-is-for ul li::before {
+    content: "👥";
+    margin-right: 0.5rem;
+}
+
+.problem-solution h4 {
+    font-size: 0.9375rem;
+    color: var(--text-main);
+    margin-top: 1rem;
+}
+
+.step-list {
+    counter-reset: step-counter;
+    list-style: none;
+    margin-left: 0;
+}
+
+.step-list li {
+    position: relative;
+    padding-left: 3.5rem;
+    margin-bottom: 1.5rem;
+    min-height: 2.5rem;
+}
+
+.step-list li::before {
+    content: counter(step-counter);
+    counter-increment: step-counter;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: var(--primary);
+    color: white;
+    border-radius: 50%;
     display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
 }
 
-.toc-level-3 {
-    padding-left: 1.5rem;
+.tips-card {
+    background: #f0f9ff;
+    border: 1px solid #bae6fd;
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+}
+
+.tips-card h3 {
+    border-bottom: none;
+    color: #0369a1;
+}
+
+.tips-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+    .tips-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.tip-item strong {
+    display: block;
+    color: #0c4a6e;
+    margin-bottom: 0.25rem;
+}
+
+.tip-item p {
+    font-size: 0.9375rem;
+    margin-bottom: 0;
+}
+
+.example-box {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+}
+
+.example-data-table {
+    overflow-x: auto;
+    margin-top: 1.5rem;
+}
+
+.example-data-table table {
+    width: 100%;
+    border-collapse: collapse;
     font-size: 0.9375rem;
 }
 
-.toc-box a {
-    color: var(--primary);
-    font-weight: 500;
+.example-data-table th {
+    background: var(--surface);
+    text-align: left;
+    padding: 0.75rem;
+    border: 1px solid var(--border);
 }
 
-.toc-box a:hover {
-    text-decoration: underline;
+.example-data-table td {
+    padding: 0.75rem;
+    border: 1px solid var(--border);
+}
+
+.faq-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.faq-item h4 {
+    font-size: 1.125rem;
+    color: var(--text-main);
+    margin-bottom: 0.5rem;
+}
+
+.faq-item p {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.license-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+}
+
+.license-card p {
+    margin-bottom: 1rem;
+}
+
+.copyright-text {
+    font-size: 0.8125rem;
+    color: var(--text-muted);
+    margin-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    padding-top: 1rem;
 }
 
 .download-section {
@@ -148,12 +285,6 @@
     color: white;
 }
 
-.download-note {
-    font-size: 0.75rem !important;
-    margin-top: 1.5rem !important;
-    opacity: 0.7 !important;
-}
-
 .related-section {
     padding-top: 4rem;
     border-top: 1px solid var(--border);
@@ -180,6 +311,22 @@
     padding-bottom: 0.5rem;
     border-bottom: 2px solid var(--primary);
     display: inline-block;
+}
+
+.sidebar-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.sidebar-links a {
+    color: var(--text-soft);
+    font-size: 0.9375rem;
+    font-weight: 500;
+}
+
+.sidebar-links a:hover {
+    color: var(--primary);
 }
 
 .tag-cloud {

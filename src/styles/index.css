@@ -111,23 +111,36 @@ h4 { font-size: 1.25rem; }
   color: white;
 }
 
-/* Card Styles */
-.card {
-  background: white;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
 }
 
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-lg);
+.btn-block {
+  display: flex;
+  width: 100%;
+}
+
+/* Badge Styles */
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  line-height: 1;
+}
+
+.badge-free {
+  background: #dcfce7;
+  color: #166534;
 }
 
 /* Utility Classes */
 .text-center { text-align: center; }
+.mb-4 { margin-bottom: 1rem; }
 .mb-8 { margin-bottom: 2rem; }
+.mb-12 { margin-bottom: 3rem; }
 .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
 .grid { display: grid; gap: 1.5rem; }
 .grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
